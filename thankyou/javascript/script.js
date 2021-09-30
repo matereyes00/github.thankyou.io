@@ -7,7 +7,8 @@
 }*/
 
 function changeEverything() {
-    document.getElementById("GIF-media").src="media/RickAstleyDancing.GIF";
+    let media = document.getElementById("GIF-media");
+    media.src="media/RickAstleyDancing.gif";
 
     let header = document.getElementById("heading");
     let msg = document.getElementById("message");

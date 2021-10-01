@@ -11,6 +11,9 @@ function changeEverything() {
     // Chaning things in the header
     mainHeaderIcon.remove();
     mainHeaderText.textContent = "Gotcha!";
+    mainHeaderText.style.color = getRandomColor();
+    header.style.color = getRandomColor();
+    msg.style.color = getRandomColor();
 
     // Changing main GIF
     document.getElementById("GIF-media").src="media/RickAstleyGIF.gif";
@@ -36,6 +39,11 @@ function changeEverything() {
     // == Changing BG color ==
     let gradiantbody = document.body;
     gradiantbody.style.background = getRandomColor();
+
+    // == BUTTON ==
+    let button = document.getElementById("button-to-change");
+    button.style.cursor = "wait";
+    button.textContent = "Unavailable";
 
     // == Plays audio ==
     let song = document.getElementById("song");

@@ -14,6 +14,5 @@ function changeEverything() {
     gradiantbody.style.background = getRandomColor();
 
     let song = document.getElementById("song");
-    song.style.display = 'hidden';
     song.play();
 }

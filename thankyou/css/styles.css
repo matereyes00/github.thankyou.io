@@ -1,11 +1,12 @@
 body {
     background-color: #fdffbb;
-    animation: dynamicbg 2s infinite;
+    animation: dynamicbg 1s infinite;
 }
 
 /*@keyframes dynamicbg {
-    from {background-color: red;}
-    to {background-color: blue;}
+    100% {background-color: red;}
+    75% {background-color: green;}
+    0% {background-color: blue;}
 }*/
 
 #container {
@@ -16,6 +17,10 @@ body {
 
 #GIF-media {
     padding: 2rem;
+}
+
+#song {
+    display: none;
 }
 
 button {
